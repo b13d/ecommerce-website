@@ -1,0 +1,546 @@
+@font-face {
+    font-family: "HK Grotesk";
+    src: url("../Fonts/HankenGrotesk-Light.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, h3, h2, h1, li {
+    font-family: 'HK Grotesk', sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+.page-title {
+    height: 42px;
+    width: inherit;
+    background-color: #F5F5F5;
+}
+
+.text-page-title {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-right-info, .text-left-info {
+    display: flex;
+}
+
+.text-right-info p {
+    margin-right: 40px;
+}
+
+.text-right-info div {
+    border-right: 1px solid rgba(34, 34, 34, 0.15);
+    padding-left: 25px;
+}
+
+.text-right-info div:last-child {
+    border: none;
+    padding-left: 25px;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.text-info > p > span {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-info {
+    width: inherit;
+    height: 90px;
+}
+
+.info {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info div {
+    display: flex;
+    align-items: center;
+}
+
+.info > .left-info {
+    gap: 40px
+}
+
+.right-info input {
+    width: 507px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-style: none;
+    background: #F3F9FB;
+}
+
+.field-find img {
+    position: relative;
+}
+
+.field-find img:first-child {
+    left: 25px
+}
+
+.field-find img:last-child {
+    right: 40px
+}
+
+.sign-up, .cart {
+    gap: 10px;
+    margin-right: 20px;
+    padding-right: 20px;
+
+    font-weight: 700;
+}
+
+.sign-up {
+    border-right: 1px solid rgba(34, 34, 34, 0.18);
+}
+
+.links-header>.container>.lists>.list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 20px;
+    border-radius: 16px;
+    background: #F3F9FB;
+
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.links-header {
+    padding: 25px 0;
+    border-top: 2px solid rgba(128, 128, 128, 0.11);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.11);
+}
+
+.list img {
+    fill: blue;
+}
+
+.links-header>.container>.lists>.list-active {
+    padding: 10px 20px;
+    border-radius: 16px;
+    background: #02c2ff;
+    color: white;
+    font-weight: 600;
+}
+
+.lists {
+    justify-content: space-between;
+    display: flex;
+}
+
+main {
+    width: inherit;
+}
+
+.smart-wearable {
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.smart-wearable {
+    width: 1200px;
+    height: 316px;
+    border-radius: 16px;
+    background: #212844;
+}
+
+.smart-wearable > .left-info {
+    padding: 25px 0px 25px 90px;
+
+    color: white;
+    display: inline-flex;
+    gap: 10px;
+    flex-direction: column;
+    font-family: "HK Grotesk", sans-serif;
+
+    align-items: baseline;
+}
+
+.smart-wearable > .left-info > h2:last-of-type {
+    margin-bottom: 70px;
+}
+
+.smart-wearable > .left-info > h1 {
+    font-size: 63px;
+}
+
+.smart-wearable > .images {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+}
+
+.smart-wearable > .images img {
+    position: absolute;
+    left: 66px;
+    top: 0;
+}
+
+.smart-wearable > .images img:last-child {
+    position: absolute;
+    left: 175px;
+    top: 25px;
+}
+
+.button-left-right {
+    width: inherit;
+    position: relative;
+}
+
+.button-left-right img {
+    position: absolute;
+}
+
+.button-left-right img:first-child {
+    rotate: 180deg;
+    top: 112px;
+    left: -53px;
+}
+
+.button-left-right img:last-child {
+    top: 112px;
+    right: -53px;
+}
+
+.deal-smartphones, .top-categories, .electronics-brands, .essentials{
+    margin-bottom: 120px;
+}
+
+.smartphones {
+    display: flex;
+    gap: 16px;
+}
+
+.smartphone-1, .smartphone-2, .smartphone-3, .smartphone-4, .smartphone-5 {
+    background-repeat: no-repeat;
+    background-position: top 13% left 50%;
+    background-color: #EDEDED;
+    position: relative;
+    width: 227px;
+    height: 295px;
+    border-radius: 16px;
+    border: 2px solid rgba(128, 128, 128, 0.16);
+}
+
+.smartphone-1 {
+    background-image: url("../Images/smartphone-1.png");
+}
+
+.smartphone-2 {
+    background-image: url("../Images/smartphone-2.png");
+}
+
+.smartphone-3 {
+    background-position: top 10% left 50%;
+
+    background-image: url("../Images/smartphone-3.png");
+}
+
+.smartphone-4 {
+    background-position: top 10% left 50%;
+
+    background-image: url("../Images/smartphone-4.png");
+}
+
+.smartphone-5 {
+    background-position: top 0% left 50%;
+
+    background-image: url("../Images/smartphone-5.png");
+}
+
+
+.bottom-smartphone-info {
+    padding: 10px;
+    position: absolute;
+    top: 190px;
+    background-color: white;
+    width: 202px;
+    height: 84px;
+    border-radius: 0 0 16px 16px;
+}
+
+.discount-smartphone {
+    left: 77.53%;
+    right: 0%;
+    top: 0%;
+    bottom: 82.03%;
+    position: absolute;
+    background: #008ECC;
+    border-radius: 0px 16px;
+
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.bottom-smartphone-info p {
+    margin-bottom: 5px;
+}
+
+.bottom-smartphone-info p:last-of-type {
+    color: #249B3E;
+    font-weight: 600;
+}
+
+.header-text h2 {
+    display: inline-block;
+    border-bottom: 3px solid #008ECC;
+    padding-bottom: 10px;
+}
+
+.header-text h2>span {
+    color: #008ECC;
+}
+
+.header-text p, .header-text a {
+    font-weight: 500;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-text p::after {
+    content: "";
+    width: 12px;
+    margin-left: 10px;
+    height: 8px;
+    top: 17px;
+    position: absolute;
+    transform: rotate(270deg);
+    background-image: url("../Images/Stroke-blue.png");
+    background-repeat: no-repeat;
+
+}
+
+.header-text, .header-text {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.14);
+}
+
+.components {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.component {
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+    width: 132px;
+    height: 172px;
+
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.category {
+    background-repeat: no-repeat;
+    background-size: 102px 122px;
+    background-position: center;
+    background-color: #EAEAEA;
+    border-radius: 70px;
+    width: 132px;
+    height: 132px;
+}
+
+
+.category-active {
+    box-shadow: 4px 40px 16px rgba(0, 0, 0, 0.01), 2px 22px 13px rgba(0, 0, 0, 0.03),
+    1px 10px 10px rgba(0, 0, 0, 0.04),
+    0px 2px 5px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    background-repeat: no-repeat;
+    background-size: 52px 100px;
+    background-position: center;
+    border: 1px solid #0d9ff5;
+    background-color: #F5F5F5;
+    border-radius: 70px;
+    width: 132px;
+    height: 132px;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    height: 210px;
+}
+
+.brand{
+    background-repeat: no-repeat;
+    background-position: right 0px;
+    border-radius: 16px;
+    width: 389px;
+    height: 207px;
+}
+
+.brand>.about-brand{
+    position: relative;
+    left: 30px;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.brand>.about-brand>p {
+    padding: 10px 15px;
+    border-radius: 12px;
+
+}
+
+.slider-points{
+    margin: 30px auto 0 auto;
+    width: 114px;
+    height: 8px;
+    background-image: url("../Images/slider-points.png");
+}
+
+
+.essentials-items {
+    justify-content: space-between;
+    display: flex;
+}
+
+.essentials-item{
+    width: 187px;
+    height: 274px;
+}
+
+.about-essential{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.about-essential p{
+    font-weight: 600;
+    color:#666;
+}
+
+.essential{
+
+    width: 187px;
+    height: 187px;
+    border-radius: 16px;
+    background-color: #F5F5F5;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.essential-active{
+    box-shadow: 4px 40px 16px rgba(0, 0, 0, 0.01), 2px 22px 13px rgba(0, 0, 0, 0.03),
+    1px 10px 10px rgba(0, 0, 0, 0.04),
+    0px 2px 5px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border: 1px solid #008ECC;
+}
+
+footer{
+    color: white;
+    background-color: #008ECC;
+    background-image: url("../Images/Mask-group-footer.png");
+    background-repeat: no-repeat;
+    background-position: right 0px;
+}
+
+.footer-info{
+    gap: 80px;
+    display: flex;
+    padding: 80px 0px;
+    border-bottom: 1px solid rgba(5, 171, 243, 0.73);
+}
+
+.info-block{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.info-block>p>span:first-of-type{
+    background-size: 24px;
+    top: 0;
+    left: 0;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+}
+
+.info-block>p>span:last-of-type{
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    display: inline-flex;
+}
+
+.images-footer{
+    display:flex;
+    gap: 20px;
+}
+
+.info-block>.list{
+    padding-left: 25px;
+}
+
+.info-block>img{
+    width: 217px;
+    height: 44px;
+}
+
+.list>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.list>ul>a{
+    text-decoration: none;
+    color: white;
+}
+
+.ltd{
+    text-align: center;
+    padding: 25px 0;
+}
+
+.ltd>h3{
+    font-weight: 500;
+}
