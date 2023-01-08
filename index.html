@@ -42,30 +42,28 @@
 
         <div class="container">
             <div class="info">
-                <div class="left-info">
-                    <img src="Images/Burger-menu.png" alt="icon-burger">
-                    <img src="Images/MegaMart-title.png" alt="name-company-title">
+
+                <img src="Images/Burger-menu.png" alt="icon-burger">
+                <img src="Images/MegaMart-title.png" alt="name-company-title">
+
+                <div class="field-find">
+                    <img src="Images/Search.png" alt="find-icon">
+                    <input type="text" placeholder="Search essentials, groceries and more...">
+                    <img src="Images/Union.png" alt="union-menu-icon">
                 </div>
 
-                <div class="right-info">
-                    <div class="field-find">
-                        <img src="Images/Search.png" alt="find-icon">
-                        <input type="text" placeholder="Search essentials, groceries and more...">
-                        <img src="Images/Union.png" alt="union-menu-icon">
-                    </div>
+                <div class="sign-up">
+                    <img src="Images/user.png" alt="user-icon">
+                    <p>Sign Up/Sign In</p>
+                </div>
 
-                    <div class="sign-up">
-                        <img src="Images/user.png" alt="user-icon">
-                        <p>Sign Up/Sign In</p>
-                    </div>
-
-                    <div class="cart">
-                        <img src="Images/Buy.png" alt="buy-icon">
-                        <p>Cart</p>
-                    </div>
+                <div class="cart">
+                    <img src="Images/Buy.png" alt="buy-icon">
+                    <p>Cart</p>
                 </div>
             </div>
         </div>
+    </div>
 
 
     </div>
@@ -125,24 +123,29 @@
 
         <div class="smart-wearable">
 
-            <div class="button-left-right">
-                <img src="Images/button-slider.png" alt="button-slider-left">
-                <img src="Images/button-slider.png" alt="button-slider-right">
+            <img class="button-slider" style="left:0px; rotate: 180deg" src="Images/button-slider.png" alt="button-slider-left">
 
-            </div>
 
             <div class="left-info">
-                <h2>Best Deal Online on smart watches</h2>
-                <h1>SMART WEARABLE.</h1>
-                <h2>UP to 80% OFF</h2>
-                <img src="Images/Circle-2.png" alt="circle">
+
+
+
+                <div class="text-about">
+                    <h2>Best Deal Online on smart watches</h2>
+                    <h1>SMART WEARABLE.</h1>
+                    <h2>UP to 80% OFF</h2>
+                    <img src="Images/Circle-2.png" alt="circle">
+                </div>
+
             </div>
 
 
             <div class="images">
-                <img src="Images/Circle-1.png" alt="circle">
-                <img src="Images/watch.png" alt="watch">
+                <img src="Images/watch.png" alt="watch" style="z-index: 1">
             </div>
+
+            <img class="button-slider" style="right: 0"  src="Images/button-slider.png" alt="button-slider-right">
+
         </div>
         <div class="deal-smartphones">
 
@@ -168,7 +171,7 @@
 
                     </div>
                 </div>
-                <div class="smartphone-2">
+                <div class="smartphone-2 smartphone-active">
                     <div class="discount-smartphone">
                         <p>56%</p>
                         <p>OFF</p>
@@ -404,7 +407,8 @@
             <div class="info-block">
                 <img src="Images/MegaMart-title-footer.png" alt="title-megamart">
                 <p style="font-weight: 700; font-size: 20px">Contact Us</p>
-                <p><span><img src="Images/whats-app-icon.png" alt="icon"></span><span>Whats App<br>+1 202-918-2132</span></p>
+                <p><span><img src="Images/whats-app-icon.png"
+                              alt="icon"></span><span>Whats App<br>+1 202-918-2132</span></p>
                 <p><span><img src="Images/Call-icon.png" alt="icon"></span><span>Call Us<br>+1 202-918-2132</span></p>
 
                 <h3>Download App</h3>
@@ -418,34 +422,62 @@
 
             <div class="info-block">
                 <h2>Most Popular Categories</h2>
-                <hr color="white"  noshade />
+                <hr color="white" noshade/>
 
                 <div class="list">
                     <ul>
-                        <a href="#"><li>Staples</li></a>
-                        <a href="#"><li>Beverages</li></a>
-                        <a href="#"><li>Personal Care</li></a>
-                        <a href="#"><li>Home Care</li></a>
-                        <a href="#"><li>Baby Care</li></a>
-                        <a href="#"><li>Vegetables & Fruits</li></a>
-                        <a href="#"><li>Snacks & Foods</li></a>
-                        <a href="#"><li>Dairy & Bakery</li></a>
+                        <a href="#">
+                            <li>Staples</li>
+                        </a>
+                        <a href="#">
+                            <li>Beverages</li>
+                        </a>
+                        <a href="#">
+                            <li>Personal Care</li>
+                        </a>
+                        <a href="#">
+                            <li>Home Care</li>
+                        </a>
+                        <a href="#">
+                            <li>Baby Care</li>
+                        </a>
+                        <a href="#">
+                            <li>Vegetables & Fruits</li>
+                        </a>
+                        <a href="#">
+                            <li>Snacks & Foods</li>
+                        </a>
+                        <a href="#">
+                            <li>Dairy & Bakery</li>
+                        </a>
                     </ul>
                 </div>
             </div>
 
             <div class="info-block">
                 <h2>Customer Services</h2>
-                <hr color="white"  noshade />
+                <hr color="white" noshade/>
 
                 <div class="list">
                     <ul>
-                        <a href="#"><li>About Us</li></a>
-                        <a href="#"><li>Terms & Conditions</li></a>
-                        <a href="#"><li>FAQ</li></a>
-                        <a href="#"> <li>Privacy Policy</li></a>
-                        <a href="#"><li>E-waste Policy</li></a>
-                        <a href="#"><li>Cancellation & Return Policy</li></a>
+                        <a href="#">
+                            <li>About Us</li>
+                        </a>
+                        <a href="#">
+                            <li>Terms & Conditions</li>
+                        </a>
+                        <a href="#">
+                            <li>FAQ</li>
+                        </a>
+                        <a href="#">
+                            <li>Privacy Policy</li>
+                        </a>
+                        <a href="#">
+                            <li>E-waste Policy</li>
+                        </a>
+                        <a href="#">
+                            <li>Cancellation & Return Policy</li>
+                        </a>
                     </ul>
                 </div>
             </div>
