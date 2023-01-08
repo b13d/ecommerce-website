@@ -710,4 +710,8 @@ footer {
         flex-direction: column;
     }
 
+    .images{
+        min-width: 0!important;
+    }
+
 }
