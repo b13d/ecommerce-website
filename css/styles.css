@@ -617,10 +617,6 @@ footer {
         gap: 20px;
         justify-content: space-between;
     }
-
-    .images{
-        min-width: 0;
-    }
 }
 
 @media screen and (max-width: 800px) {
