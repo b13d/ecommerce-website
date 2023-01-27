@@ -713,17 +713,7 @@ footer {
         min-width: 0!important;
     }
 
-    .modal-burger {
-        box-shadow: 0px 7px 36px 6px #00000040;
-        width: 90%;
-        top: 6em;
-        height: 300px;
-        border: 2px solid #008fcc56;
-        position: absolute;
-        z-index: 1000;
-        display: none;
-        background: #41dcff;
-    }
+
     
     .close-modal {
         color: #008ECC;
@@ -754,3 +744,14 @@ footer {
     }
 }
 
+.modal-burger {
+    box-shadow: 0px 7px 36px 6px #00000040;
+    width: 90%;
+    top: 6em;
+    height: 300px;
+    border: 2px solid #008fcc56;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    background: #41dcff;
+}
