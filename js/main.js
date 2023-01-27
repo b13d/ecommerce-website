@@ -26,10 +26,13 @@ burgerMenu.onclick = function () {
 };
 
 window.addEventListener("resize", function () {
-  if (window.screen.width < 500) console.log(window.screen.width);
-  else {
+  if (window.screen.width < 500) {
     burgerMenu.style.display = "block";
 
+    styleBurgerMenu = burgerMenu.style.display;
+  }
+  else {
+    burgerMenu.style.display = "none";
     document.querySelector(".modal-burger").style.display = "none";
   }
 });

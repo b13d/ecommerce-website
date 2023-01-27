@@ -742,6 +742,10 @@ footer {
         line-height: 50px;
         text-decoration: none;
     }
+
+    .burger-menu {
+        display: block;
+    }
 }
 
 .modal-burger {
@@ -754,4 +758,8 @@ footer {
     z-index: 1000;
     display: none;
     background: #41dcff;
+}
+
+.burger-menu {
+    display: none;
 }
